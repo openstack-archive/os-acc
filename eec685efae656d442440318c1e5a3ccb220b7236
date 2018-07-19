@@ -1,0 +1,9 @@
+Code-Review+2: Zhipeng Huang <huangzhipeng@huawei.com>
+Workflow+1: Zhipeng Huang <huangzhipeng@huawei.com>
+Code-Review+2: Li Liu <liliueecg@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 19 Jul 2018 20:51:11 +0000
+Reviewed-on: https://review.openstack.org/583097
+Project: openstack/os-acc
+Branch: refs/heads/master
