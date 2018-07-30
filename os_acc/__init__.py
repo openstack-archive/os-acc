@@ -43,7 +43,7 @@ def get_config(acc, instance=None, inst_type=None):
 
     if _EXT_MANAGER is None:
         raise os_acc.exception.LibraryNotInitialized()
-    acc_type = acc['type']
+    acc_type = acc['interface_type']
     if acc_type is None:
         raise os_acc.exception.InternalError(
             _("acc_type parameter must be present "
@@ -59,7 +59,7 @@ def get_config(acc, instance=None, inst_type=None):
 def attach(acc, guest=None, host=None, instance=None, inst_type=None):
     if _EXT_MANAGER is None:
         raise os_acc.exception.LibraryNotInitialized()
-    acc_type = acc['type']
+    acc_type = acc['interface_type']
     if acc_type is None:
         raise os_acc.exception.InternalError(
             _("acc_type parameter must be present "
@@ -82,7 +82,7 @@ def detach(acc, guest=None, host=None, instance=None, inst_type=None):
 
     if _EXT_MANAGER is None:
         raise os_acc.exception.LibraryNotInitialized()
-    acc_type = acc['type']
+    acc_type = acc['interface_type']
     if acc_type is None:
         raise os_acc.exception.InternalError(
             _("acc_type parameter must be present "

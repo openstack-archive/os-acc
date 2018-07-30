@@ -113,9 +113,9 @@ class TestOSACC(base.TestCase):
                 mock.patch('stevedore.extension.ExtensionManager.__getitem__',
                            return_value=plg):
             os_acc.initialize()
-            fake_acc = {"instance_uuid": "", "type": "demo",
+            fake_acc = {"instance_uuid": "", "interface_type": "demo",
                         "name": "NVIDIA Corporation GP100GL",
-                        "pcie_address": "0000:81:00.0"}
+                        "address": "0000:81:00.0"}
             fake_instance = {}
             fake_inst_type = {}
             fake_guest = ""
@@ -137,9 +137,9 @@ class TestOSACC(base.TestCase):
                 mock.patch('stevedore.extension.ExtensionManager.__getitem__',
                            return_value=plg):
             os_acc.initialize()
-            fake_acc = {"instance_uuid": "", "type": "demo",
+            fake_acc = {"instance_uuid": "", "interface_type": "demo",
                         "name": "NVIDIA Corporation GP100GL",
-                        "pcie_address": "0000:81:00.0"}
+                        "address": "0000:81:00.0"}
             fake_instance = {}
             fake_inst_type = {}
             os_acc.get_config(fake_acc, fake_instance, fake_inst_type)
@@ -157,9 +157,9 @@ class TestOSACC(base.TestCase):
                 mock.patch('stevedore.extension.ExtensionManager.__getitem__',
                            return_value=plg):
             os_acc.initialize()
-            fake_acc = {"instance_uuid": "", "type": "demo",
+            fake_acc = {"instance_uuid": "", "interface_type": "demo",
                         "name": "NVIDIA Corporation GP100GL",
-                        "pcie_address": "0000:81:00.0"}
+                        "address": "0000:81:00.0"}
             fake_instance = {}
             fake_inst_type = {}
             fake_guest = ""
