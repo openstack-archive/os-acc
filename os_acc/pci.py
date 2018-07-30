@@ -18,7 +18,7 @@ from os_acc import base
 class PciAccelerator(base.PluginBase):
 
     def get_config(self, acc, instance=None, inst_type=None):
-        pcie_addr = acc["pcie_address"]
+        pcie_addr = acc["address"]
         domain, bus, slot, func = self._get_pci_address_fields(pcie_addr)
         from nova.virt.libvirt.config import LibvirtConfigGuestHostdevPCI
         conf = LibvirtConfigGuestHostdevPCI()
