@@ -1,0 +1,9 @@
+Code-Review+2: wangzhh <wangzh21@lenovo.com>
+Code-Review+2: Li Liu <liliueecg@gmail.com>
+Workflow+1: Li Liu <liliueecg@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 30 Aug 2018 14:19:12 +0000
+Reviewed-on: https://review.openstack.org/592839
+Project: openstack/os-acc
+Branch: refs/heads/master
