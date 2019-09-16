@@ -1,15 +1,10 @@
-========================
-Team and repository tags
-========================
+This project is no longer maintained.
 
-======
-os-acc
-======
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-A library for attaching and detaching accelerators in OpenStack.
-
-* License: Apache License, Version 2.0
-* Documentation:
-* Source:
-* Bugs:
-* Release Notes:
+For any further questions, please email
+openstack-discuss@lists.openstack.org wth '[cyborg] [os-acc]' in
+the title or join #openstack-cyborg IRC channel.
