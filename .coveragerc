@@ -1,4 +1,0 @@
-[run]
-branch = True
-source = os_acc
-omit = os_acc/tests/*
